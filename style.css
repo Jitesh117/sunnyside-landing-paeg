@@ -8,20 +8,39 @@
     /* neutral */
     --desatblue:hsl(168, 34%, 41%);
     --vdgblue:hsl(213, 9%, 39%);
-    --dgblue:hsl(210, 4%, 67%);
+    --dgblue:hsl(232, 10%, 55%);
     --gblue:hsl(210, 4%, 67%);
     --white:hsl(0, 0%, 100%);
 }
 *{
-    margin: 0;;
+    margin: 0;
     padding: 0;
     font-family: 'barlow',sans-serif;
+    /* border: 1px solid red; */
 }
 h1{
     color: var(--white);
+    letter-spacing: 5px;
 }
 .heading{
     font-family: 'fraunces',sans-serif;
+}
+.learn{
+    font-family: 'fraunces',sans-serif;
+    padding-top: 20px;
+    margin: 0 auto;
+    /* cursor: pointer; */
+    /* text-decoration: underline 2px  red; */
+}
+ .learn :hover{
+     cursor: pointer;
+ }
+.transform .learn {
+    text-decoration: underline 5px var(--yellow);
+    /* font-family: 'fraunces'; */
+}
+.standout .learn{
+    text-decoration: underline 5px var(--red);
 }
 .para{
     color: var(--vdgblue);
@@ -32,9 +51,36 @@ h1{
 .photography{
     color: var(--dblue);
 }
+.transform .heading, .standout .heading{
+    /* color: var(--dblue); */
+    padding: 0 20px 20px 20px;
+}
 .testitext{
     color: var(--vdgblue);
     font-size:14px;
+    line-height: 20px;
+}
+#pfpheading{
+    font-size: 15px;
+    padding-top: 15px;
+}
+.post{
+    color: var(--gblue) ;
+    font-size: 15px;
+    padding-top: 10px;
+}
+#client{
+    color: var(--gblue);
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+.testimonials img{
+    border-radius: 50%;
+    width:50px;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: var(--modcyan);
 }
 @media screen and (max-width:375px) {
     main{
@@ -66,7 +112,7 @@ h1{
         background-image: url(./images/mobile/image-header.jpg);
         background-size:cover ;
         /* background; */
-       padding-bottom: 278px;
+       padding-bottom: 100px;
        padding-top: 20px;
     }
     .transform{
@@ -91,10 +137,7 @@ h1{
         background-size: cover;
         padding-top: 300px;
     }
-    .testimonials img{
-        border-radius: 50%;
-        width:50px
-    }
+   
     .text{
       padding-left: 10px;
       padding-right: 10px;
@@ -107,9 +150,13 @@ h1{
     }
     .left{
         width: 50%;
+        display: flex;
+        flex-direction: column;
     }
     .right{
         width: 50%;
+        display: flex;
+        flex-direction: column;
     }
     .gallery{
         width: 100%;
@@ -122,5 +169,9 @@ h1{
     }
     .profile{
         padding:10px;
+    }
+    .text .heading{
+        font-size: 25px;
+        font-weight: bold;
     }
 }
