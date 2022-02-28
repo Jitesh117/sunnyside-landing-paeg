@@ -82,7 +82,7 @@ h1{
 footer{
     background-color: #91d4c6;
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
     main{
         /* padding:0 10px; */
         display: flex;
