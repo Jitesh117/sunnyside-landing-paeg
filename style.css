@@ -1,7 +1,7 @@
 :root{
     --red:hsl(7, 99%, 70%);
     --yellow:hsl(51, 100%, 49%);
-    --desatcyan:hsl(51, 100%, 49%);
+    --desatcyan:hsl(167, 40%, 24%);
     --dblue: hsl(198, 62%, 26%);
     --modcyan:hsl(168, 34%, 41%);
 
@@ -15,18 +15,34 @@
 *{
     margin: 0;;
     padding: 0;
+    font-family: 'barlow',sans-serif;
 }
 h1{
     color: var(--white);
 }
-
+.heading{
+    font-family: 'fraunces',sans-serif;
+}
+.para{
+    color: var(--vdgblue);
+}
+.graphic{
+    color:var(--desatcyan)
+}
+.photography{
+    color: var(--dblue);
+}
+.testitext{
+    color: var(--vdgblue);
+    font-size:14px;
+}
 @media screen and (max-width:375px) {
     main{
-        /* width: 90%; */
+        /* padding:0 10px; */
         display: flex;
         flex-direction: column;
         text-align: center;
-        /* background-color: var(--); */
+      
     }
     h1{
         margin-top: 50px;
@@ -51,5 +67,13 @@ h1{
         background-image: url(./images/mobile/image-photography.jpg);
         background-size: cover;
         padding-top: 300px;
+    }
+    .testimonials img{
+        border-radius: 50%;
+        width:50px
+    }
+    .text{
+      padding-left: 10px;
+      padding-right: 10px;
     }
 }
