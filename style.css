@@ -80,7 +80,7 @@ h1{
     margin-bottom: 30px;
 }
 footer{
-    background-color: var(--modcyan);
+    background-color: #91d4c6;
 }
 @media screen and (max-width:375px) {
     main{
@@ -173,5 +173,27 @@ footer{
     .text .heading{
         font-size: 25px;
         font-weight: bold;
+    }
+    footer{
+        padding: 20px;
+        padding-top: 50px;
+        text-align: center;
+        /* color: white; */
+    }
+    .footlinks{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+        color: var(--desatcyan);
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+    .socials{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 30px;
+    }
+    .socials img{
+        width: 15px;
     }
 }
