@@ -1,0 +1,14 @@
+:root{
+    --red:hsl(7, 99%, 70%);
+    --yellow:hsl(51, 100%, 49%);
+    --desatcyan:hsl(51, 100%, 49%);
+    --dblue: hsl(198, 62%, 26%);
+    --modcyan:hsl(168, 34%, 41%);
+
+    /* neutral */
+    --desatblue:hsl(168, 34%, 41%);
+    --vdgblue:hsl(213, 9%, 39%);
+    --dgblue:hsl(210, 4%, 67%);
+    --gblue:hsl(210, 4%, 67%);
+    --white:hsl(0, 0%, 100%);
+}
