@@ -130,12 +130,12 @@ footer{
     .graphic{
         background-image: url(./images/mobile/image-graphic-design.jpg);
         background-size: cover;
-        padding-top: 300px;
+        padding-top: 400px;
     }
     .photography{
         background-image: url(./images/mobile/image-photography.jpg);
         background-size: cover;
-        padding-top: 300px;
+        padding-top: 400px;
     }
    
     .text{
@@ -195,5 +195,20 @@ footer{
     }
     .socials img{
         width: 15px;
+    }
+    .orange{
+        width: 100%;
+        /* display: none; */
+    }
+    .bottom img{
+        width: 100%;
+        z-index: -1;
+        margin-bottom: 0;
+    }
+    .bottom .text{
+        z-index: 1;
+        position: absolute;
+        padding-top: 20px;
+        /* text-align: center; */
     }
 }
